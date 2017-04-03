@@ -70,6 +70,30 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DenryuuChousei.Designer.vb">
+      <DependentUpon>DenryuuChousei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DenryuuChousei.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExcelToriKomi.Designer.vb">
+      <DependentUpon>ExcelToriKomi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ExcelToriKomi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HikakuSampleEntaku.Designer.vb">
+      <DependentUpon>HikakuSampleEntaku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HikakuSampleEntaku.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IppanDataInput.Designer.vb">
+      <DependentUpon>IppanDataInput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IppanDataInput.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Login.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -92,8 +116,122 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="PasswordInput.Designer.vb">
+      <DependentUpon>PasswordInput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordInput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SagyouJoukenInput.Designer.vb">
+      <DependentUpon>SagyouJoukenInput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SagyouJoukenInput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SagyouJouken_2.Designer.vb">
+      <DependentUpon>SagyouJouken_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SagyouJouken_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SagyouJouken_SuiJun.Designer.vb">
+      <DependentUpon>SagyouJouken_SuiJun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SagyouJouken_SuiJun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShiKenIchiran.Designer.vb">
+      <DependentUpon>ShiKenIchiran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShiKenIchiran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShikenKanri.Designer.vb">
+      <DependentUpon>ShikenKanri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShikenKanri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShikenNaiyouEdit.Designer.vb">
+      <DependentUpon>ShikenNaiyouEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShikenNaiyouEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShousaiSettei_ippan.Designer.vb">
+      <DependentUpon>ShousaiSettei_ippan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShousaiSettei_ippan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShousaiSettei_TeiKou.Designer.vb">
+      <DependentUpon>ShousaiSettei_TeiKou.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShousaiSettei_TeiKou.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SokuteichiDelete.Designer.vb">
+      <DependentUpon>SokuteichiDelete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SokuteichiDelete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SokuteichiJoukenInput.Designer.vb">
+      <DependentUpon>SokuteichiJoukenInput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SokuteichiJoukenInput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SokuteichiKakunin.Designer.vb">
+      <DependentUpon>SokuteichiKakunin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SokuteichiKakunin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SokuteichiTenyuuryoku.Designer.vb">
+      <DependentUpon>SokuteichiTenyuuryoku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SokuteichiTenyuuryoku.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SokuteiKoKanri.Designer.vb">
+      <DependentUpon>SokuteiKoKanri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SokuteiKoKanri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SampleKoEdit.Designer.vb">
+      <DependentUpon>SampleKoEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SampleKoEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeikouSokutei_.Designer.vb">
+      <DependentUpon>TeikouSokutei_.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TeikouSokutei_.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ｎLineAdd.Designer.vb">
+      <DependentUpon>ｎLineAdd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ｎLineAdd.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DenryuuChousei.resx">
+      <DependentUpon>DenryuuChousei.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExcelToriKomi.resx">
+      <DependentUpon>ExcelToriKomi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HikakuSampleEntaku.resx">
+      <DependentUpon>HikakuSampleEntaku.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IppanDataInput.resx">
+      <DependentUpon>IppanDataInput.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +240,57 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswordInput.resx">
+      <DependentUpon>PasswordInput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SagyouJoukenInput.resx">
+      <DependentUpon>SagyouJoukenInput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SagyouJouken_2.resx">
+      <DependentUpon>SagyouJouken_2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SagyouJouken_SuiJun.resx">
+      <DependentUpon>SagyouJouken_SuiJun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SampleKoEdit.resx">
+      <DependentUpon>SampleKoEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShiKenIchiran.resx">
+      <DependentUpon>ShiKenIchiran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShikenKanri.resx">
+      <DependentUpon>ShikenKanri.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShikenNaiyouEdit.resx">
+      <DependentUpon>ShikenNaiyouEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShousaiSettei_ippan.resx">
+      <DependentUpon>ShousaiSettei_ippan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShousaiSettei_TeiKou.resx">
+      <DependentUpon>ShousaiSettei_TeiKou.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SokuteichiDelete.resx">
+      <DependentUpon>SokuteichiDelete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SokuteichiJoukenInput.resx">
+      <DependentUpon>SokuteichiJoukenInput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SokuteichiKakunin.resx">
+      <DependentUpon>SokuteichiKakunin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SokuteichiTenyuuryoku.resx">
+      <DependentUpon>SokuteichiTenyuuryoku.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SokuteiKoKanri.resx">
+      <DependentUpon>SokuteiKoKanri.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeikouSokutei_.resx">
+      <DependentUpon>TeikouSokutei_.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ｎLineAdd.resx">
+      <DependentUpon>ｎLineAdd.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
